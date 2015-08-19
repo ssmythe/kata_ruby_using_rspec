@@ -1,28 +1,25 @@
 require_relative 'spec_helper'
 
+# Kata Description Here
+
 describe 'Kata' do
-
-  # Kata Description Here
-
   # before(:each) do
   #   # setup here
   # end
 
-  describe "#when something" do
-    it "returns output" do
-      # test here
-    end
+  it "#when input returns output" do
+    # test here
+    #  cn.methodname(input).should == "output"
   end
 
-  # describe "#when using example output" do
-  #   example_output = {
-  #       "input" => "output"
-  #   }
+  # example_output = {
+  #     "input" => "output"
+  # }
   #
-  #   example_output.each_pair do |intput, output|
-  #     it "#{intput} returns #{output}" do
-  #       # test here
-  #     end
+  # example_output.each_pair do |input, output|
+  #   it "when #{input} returns #{output}" do
+  #     # test here
+  #     # cn.methodname(input).should == output
   #   end
   # end
 end
